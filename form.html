@@ -5,17 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <h1>Emprendimiento de Pizzas Veganas</h1>
-    <!-- Tamaño de la pizza -->
-    <fieldset>
-        <legend>Tamaño de pizza</legend>
-        <p>
-            <label > 
-                <input type="radio" name="size">Personal 
-            </label>
-        </p>
+    <style>
+        div{
+            /* background-color: red; */
+        }
+        .titulo1{
+            background-color: blueviolet;
+        }
+        #titulo2{
+            background-color: pink;
+        }
+        a[href="https://htmlcolorcodes.com"]{
+            color: crimson;
+        }
+        .titulo3{
+            
+        }
+
+    </style>
+    <div class="titulo1">Emprendimiento</div>
+    <div class="titulo3">Emprendimiento</div>
+    <div id="titulo2">Pizzas Veganas </div>
+    <a href="https://htmlcolorcodes.com">Que hará esto?</a>
+    <form >
+        <!-- Tamaño de la pizza -->
+        <fieldset>
+            <legend>Tamaño de pizza</legend>
+            <p>
+                <label > 
+                    <input type="radio" name="size">Personal 
+                </label>
+            </p>
         <p>
             <label > 
                 <input type="radio" name="size">Mediana 
@@ -28,16 +52,17 @@
         </p>
     </fieldset>
     <br/>
-    <legend>Ingredientes</legend>
+    <legend class="titulo1">Ingredientes</legend>
     <p><label><input type="checkbox">Tomate</label></p>
     <p><label><input type="checkbox">Pimentón</label></p>
     <p><label><input type="checkbox">Cebolla</label></p>
     <p><label><input type="checkbox">Champiñón</label></p>
 <fieldset>
-    <legend>Fecha y hora de entrega</legend>
+    <legend class="titulo1">Fecha y hora de entrega</legend>
     <p><label>Fecha de entrega:<input type="date"></label></p>
     <p><label>Selecciona una hora:<input type="time"></label></p>
 </fieldset>
 <input type="submit">
+</form>
 </body>
 </html>
